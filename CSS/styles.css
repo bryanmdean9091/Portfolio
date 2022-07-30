@@ -1,0 +1,142 @@
+.navbar {
+    background-color: black;
+    border-bottom: .25rem solid white;
+}
+.navbar-toggler{
+background-color: white !important; 
+color: white !important;
+}
+.collapse {
+    color: white;
+}
+/* carousel Styling */
+
+.carousel-caption {
+   bottom: 9rem;
+   padding-left: 8rem;
+   padding-right: 8rem;
+} 
+.carousel-caption h1 {
+    font-size: 60px;
+    display: inset-inline;
+    font-family: 'Acme', sans-serif;
+    color: white;
+    -webkit-text-stroke:3px black;
+} 
+.opening {
+    border-top: .25rem solid white;
+    word-wrap: break-word;
+}
+.section-2 {
+    margin-top: -17px;
+}
+.examp {
+    font-family: 'Shrikhand', cursive;
+    margin-top: 20px;
+    font-size: 40px;
+    color: white;
+    -webkit-text-stroke:3px black;
+}
+
+.button-1 {
+    color: white;
+    border: .25rem solid black;
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+/* footer */
+.footer {
+    border-top: .25rem solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* breakpoints */
+ /* Small devices (landscape phones, 375px and up) */
+ @media only screen and (min-width: 375px) {
+    .carousel-caption h1 {
+        font-size: 20px;
+    }
+    .examp {
+        font-size: 25px;
+    }
+    .button-1 {
+        margin: 0;
+    }
+  
+  }
+  
+   /* Medium devices (tablets, 750px and up) */
+  @media only screen and (min-width: 750px) {
+    .carousel-caption h1 {
+      font-size:40px ;
+    }
+    .examp {
+        font-size:30px ;
+    }
+    .button-1 {
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-bottom: 2rem;
+    }
+  
+  }
+  
+   /* Large devices (desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .carousel-caption h1 {
+      font-size: 60px;
+    }
+    .examp {
+        font-size: 40px;
+    }
+    .button-1 {
+        margin-top: 1rem;
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+    }
+
+  
+  }
+  
+   /* X-Large devices (large desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .carousel-caption h1 {
+      font: size 75px; ;
+    }
+    .examp {
+        font-size: 50px;
+    }
+    .button-1 {
+        margin-top: 4rem;
+        margin-left: 4rem;
+    }
+
+  
+  }
+  
+   /* XX-Large devices (larger desktops, 1400px and up) */
+  @media only screen and (min-width: 1400px) {
+    .carousel-caption h1 {
+        font-size: 90px;
+      
+    }
+  }
+
+
+
+

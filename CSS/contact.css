@@ -1,0 +1,11 @@
+.navbar {
+    background-color: black;
+    border-bottom: .25rem solid white;
+}
+.navbar-toggler{
+background-color: white !important; 
+color: white !important;
+}
+.collapse {
+    color: white;
+}
