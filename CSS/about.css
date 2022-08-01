@@ -1,0 +1,44 @@
+  
+.navbar {
+    background-color: black;
+    border-bottom: .25rem solid white;
+}
+.navbar-toggler{
+background-color: white !important; 
+color: white !important;
+}
+.collapse {
+    color: white;
+}
+/* start of header section */
+.dean {
+    border: .25rem solid white;
+}
+.contain-1 {
+    background-image: url("./images/Clouds.png");
+    background-repeat: repeat;
+    background-size: contain;
+}
+/* card section */
+.list {
+    font-family: 'Homer Simpson Revised', sans-serif;
+    color: gold;
+    -webkit-text-stroke:3px black;
+                                                
+}
+.img-fluid {
+    border-bottom: .25rem solid white;
+}
+.card {
+    border: .25rem solid white;
+}
+.cardi-b {
+    padding: .25em;
+} 
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+.dogs {
+    background-image: url("./images/snoopy-hug-charlie-brown.gif");
+}

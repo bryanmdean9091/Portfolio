@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -20,6 +19,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap" rel="stylesheet">
     <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/fb1b695bdf.js" crossorigin="anonymous"></script>
     <title>Portfolio</title>
@@ -39,13 +44,13 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <ul class="navbar-nav ">
                     <li class="nav-item">
-                        <a class="nav-link active text-light mx-3 aria-current=page" href="#">Home</a>
+                        <a class="nav-link active text-light mx-3 aria-current=page" href="index.html" target="_blank">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light mx-3" href="#">About</a>
+                        <a class="nav-link text-light mx-3" href="about.html" target="_blank">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light mx-3" href="contact.html">Contact</a>
+                        <a class="nav-link text-light mx-3" href="contact.html" target="_blank">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -68,43 +73,47 @@
                 aria-label="Slide 6"></button>
         </div>
         <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="4000">
+            <div class="carousel-item active" data-bs-interval="3000">
                 <img src="CSS/images/lennon.png" class="d-block w-100" alt="John Lennon" style="height:35rem;">
+                <div class="carousel-caption  d-md-block d-sm-block">
+                    <h1 class="display-4">My Name is Bryan Dean</h1>
+                </div>
             </div>
-            <div class="carousel-caption">
-                <h1>My Name is Bryan Dean</h1>
-            </div>
-            <div class="carousel-item" data-bs-interval="4000">
+            <div class="carousel-item" data-bs-interval="3000">
                 <img src="CSS/images/kubrick.png" class="d-block w-100" alt="Stanley Kubrick" style="height:35rem;">
+                <div class="carousel-caption d-md-block d-sm-block">
+                    <h1 class="display-4">My Name is Bryan Dean</h1>
+                    <p class="carp display-6">And These...</p>  
+                </div>
             </div>
-            <div class="carousel-caption d-md-block d-sm-block">
-                <h1>My Name is Bryan Dean</h1>
-            </div>
-            <div class="carousel-item" data-bs-interval="4000">
+            <div class="carousel-item" data-bs-interval="3000">
                 <img src="CSS/images/joan.png" class="d-block w-100" alt="Joan Didion" style="height:35rem;">
+                <div class="carousel-caption  d-md-block d-sm-block">
+                    <h1 class="display-4">My Name is Bryan Dean</h1>
+                    <p class="carp display-6">And These Are Some...</p>
+                </div>
             </div>
-            <div class="carousel-caption  d-md-block d-sm-block">
-                <h1>My Name is Bryan Dean</h1>
-
-            </div>
-            <div class="carousel-item" data-bs-interval="4000">
+            <div class="carousel-item" data-bs-interval="3000">
                 <img src="CSS/images/hunter.png" class="d-block w-100" alt="Hunter S Thompson" style="height:35rem;">
+                <div class="carousel-caption  d-md-block d-sm-block">
+                    <h1 class="display-4">My Name is Bryan Dean</h1>
+                    <p class="carp display-6">And These Are Some Of The People... </p>
+                </div>
             </div>
-            <div class="carousel-caption  d-md-block d-sm-block">
-                <h1>My Name is Bryan Dean</h1>
-            </div>
-            <div class="carousel-item" data-bs-interval="4000">
+            <div class="carousel-item" data-bs-interval="3000">
                 <img src="CSS/images/tomwolfe.png" class="d-block w-100" alt="Tom Wolfe" style="height:35rem;">
+                <div class="carousel-caption  d-md-block d-sm-block">
+                    <h1 class="display-4">My Name is Bryan Dean</h1>
+                    <p class="carp display-6">And These Are Some Of The People Who Have...</p>
+                </div>
             </div>
-            <div class="carousel-caption  d-md-block d-sm-block">
-                <h1>My Name is Bryan Dean</h1>
-            </div>
-            <div class="carousel-item" data-bs-interval="4000">
-                <img src="CSS/images/dylan.png class="d-block w-100" alt="Bob Dylan" style="height:35rem;">
-            </div>
-            <div class="carousel-caption d-md-block d-sm-block">
-                <h1>My Name is Bryan Dean</h1>
-            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="CSS/images/dylan.png" class="d-block w-100" alt="Bob Dylan" style="height:35rem;">
+                <div class="carousel-caption d-md-block d-sm-block">
+                    <h1 class="display-4">My Name is Bryan Dean</h1>
+                    <p class="carp display-6">And These Are Some Of The People Who Have Inspired Me!</p>
+                </div>
+            </div>  
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
             data-bs-slide="prev">
@@ -117,10 +126,12 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
+    
     <!-- Section -->
     <div class="container-fluid opening bg-dark text-light">
-        <h2 class="header mt-4 text-center">Hello, everyone...</h2>
-        <p class="text-light mx-auto myself">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque maxime
+        <div class="row">
+            <h2 class="header mt-4 text-center">Hello, everyone...</h2>
+            <p class="myself justify-content-center d-sm-flex">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque maxime
             asperiores, quasi, error, consectetur facilis qui aspernatur sapiente possimus quod ea! Beatae maxime animi
             error fugiat natus distinctio voluptate ut. Itaque tempore ab architecto rem! Exercitationem laboriosam
             minima sequi quis dicta, repellat voluptatum omnis aperiam atque, br eaque facilis Lorem ipsum dolor, sit
@@ -128,29 +139,30 @@
             assumenda corporis illo neque consectetur, et voluptatibus voluptatem animi voluptate atque praesentium
             eaque tempora molestias quod in accusantium! Iusto, aperiam vitae quae sed dolores itaque odit sapiente
             voluptatibus quas est consequatur.</p>
-    </div>
-
-    <!-- section 2 -->
-    <div class="container-fluid section-2 bg-dark d-flex justify-content-center">
-        <div class="mt-3">
-            <div class="container projects text-center bg-dark" style="height:15rem;">
-                <h3 class="examp">These are some of the projects I've worked on:</h3>
-                <div class=" buttons d-flex align-items-center justify-content-center gx-0">
-                    <a class="btn btn-danger button-1"
-                        href="https://bryanmdean9091.github.io/Final-Project-Royal-Repos/" target="_blank"
-                        role="button">WFB-Final</a>
-                    <a class="btn btn-danger button-1" href="https://bryanmdean9091.github.io/event-landing-page/"
-                        target="_blank" role="button">Event Page</a>
-                    <a class="btn btn-danger button-1" href="https://bryanmdean9091.github.io/parallax-practice/"
-                        target="_blank" role="button">Parlx Prac</a>
-                    <a class="btn btn-danger button-1" href="https://bryanmdean9091.github.io/Table-prac/"
-                        target="_blank" role="button">Tables Prac</a>
-                    <a class="btn btn-danger button-1" href="https://bryanmdean9091.github.io/Royal-Pool/"
-                        target="_blank" role="button">Royal Pool</a>
-                </div>
-            </div>
+            <br>
+            <br>
+            <h2 class="mt-4 text-center" > Since starting my Web Development courses in May of 2022, I have learned the following&colon;</h2>
+            <ul class="creds text-light mt-4 mb-4 text-center">
+                <li><h2> HTML</h2></li>
+                <li><h2> CSS</h2></li>
+                <li><h2>Bootstrap</h2></li>
+                
+            </ul>
+            <h3 class="text-center">These are some examples of projects I have worked on since starting my journey:</h3>
+            <div class="d-grid gap-3 mt-3 justify-content-center">
+                <a class="btn btn-primary rounded-pill button-1" style="width:80vw ;" href="https://bryanmdean9091.github.io/Final-Project-Royal-Repos/" target="_blank" role="button">WFB Final Project</a>
+                <a class="btn btn-primary rounded-pill button-1" style="width:80vw ;" href="https://bryanmdean9091.github.io/event-landing-page/" target="_blank" role="button">Event Landing Page</a>
+                <a class="btn btn-primary rounded-pill button-1" style="width:80vw ;" href="https://bryanmdean9091.github.io/parallax-practice/" target="_blank" role="button">Parallax-Practice</a>
+                <a class="btn btn-primary rounded-pill button-1" style="width:80vw ;" href="https://bryanmdean9091.github.io/Table-prac/" target="_blank" role="button">Table Practice</a>
+                <a class="btn btn-primary rounded-pill button-1 mb-5" style="width:80vw ;" href="https://bryanmdean9091.github.io/Royal-Pool/" target="_blank" role="button">MF Pool Site</a>
+        </div>
+        </div>
+        </div>
+        </div>
         </div>
     </div>
+    </div>
+   
     <!-- footer -->
     <footer>
         <div class="container-fluid gx-0 w-100">
@@ -163,29 +175,9 @@
               <a href="https://twitter.com/bitwiseind" target="_blank"><i
                   class="fa-brands fa-twitter ms-2"></i></a>
                   <a href="https://geekwise.slack.com/ssb/redirect?entry_point=homepage_nav&_gl=1*16infos*_gcl_aw*R0NMLjE2NTkyMTk4NDIuQ2p3S0NBandyWk9YQmhBQ0Vpd0EwRW9SRDlxdkNYU0cwbVRGcUxTRkxrc0NsRU5XOUlHRGdsQ3ZCYUtWVG5uWXZLRzhKNm5ZUzV0MDlSb0NRa0VRQXZEX0J3RQ..*_gcl_dc*R0NMLjE2NTkyMTk4NDIuQ2p3S0NBandyWk9YQmhBQ0Vpd0EwRW9SRDlxdkNYU0cwbVRGcUxTRkxrc0NsRU5XOUlHRGdsQ3ZCYUtWVG5uWXZLRzhKNm5ZUzV0MDlSb0NRa0VRQXZEX0J3RQ.." target="_blank"><i class="fa-brands fa-slack ms-2"></i></a>
-                  <h4 class="text-primary text-center">&copy;2022BMD</h4>
-            
+                  <h4 class="text-primary text-center">&copy;2022BMD</h4>          
         </div>
       </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>

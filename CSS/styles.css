@@ -1,3 +1,4 @@
+
 .navbar {
     background-color: black;
     border-bottom: .25rem solid white;
@@ -10,23 +11,40 @@ color: white !important;
     color: white;
 }
 /* carousel Styling */
+.carousel-inner {
+    background-color: rgba(0, 0, 0, 0.5);      
+}
 
 .carousel-caption {
-   bottom: 9rem;
-   padding-left: 8rem;
-   padding-right: 8rem;
+   /* bottom: 10em;
+   padding-left: 8em;
+   padding-right: 8em; */
 } 
 .carousel-caption h1 {
-    font-size: 60px;
+    /* font-size: 4em; */
     display: inset-inline;
     font-family: 'Acme', sans-serif;
-    color: white;
+    color: gold;
     -webkit-text-stroke:3px black;
+    padding-bottom: 1%;
 } 
+.carp {
+    display: inset-inline;
+    font-family: 'Acme', sans-serif;
+    color: gold;
+    -webkit-text-stroke:3px black;
+    margin-bottom: 5%;
+} 
+
+
 .opening {
     border-top: .25rem solid white;
-    word-wrap: break-word;
 }
+.myself {
+    font-family: 'Gravitas One', cursive;
+    color: white;
+}
+/* start of section */
 .section-2 {
     margin-top: -17px;
 }
@@ -37,13 +55,13 @@ color: white !important;
     color: white;
     -webkit-text-stroke:3px black;
 }
-
-.button-1 {
+.creds {
     color: white;
-    border: .25rem solid black;
-    display:flex;
-    flex-wrap: wrap;
-    
+    list-style-type: circle;
+    text-decoration-color: white;
+}
+.button-1 {
+    border: .25rem solid white;
 }
 /* footer */
 .footer {
@@ -67,48 +85,39 @@ color: white !important;
 
 /* breakpoints */
  /* Small devices (landscape phones, 375px and up) */
- @media only screen and (min-width: 375px) {
+  @media only screen and (min-width: 375px) {
     .carousel-caption h1 {
-        font-size: 20px;
+        /* font-size: 2em; */
     }
-    .examp {
+    /* .examp {
         font-size: 25px;
-    }
-    .button-1 {
-        margin: 0;
-    }
+    } */
+   
   
   }
   
    /* Medium devices (tablets, 750px and up) */
   @media only screen and (min-width: 750px) {
     .carousel-caption h1 {
-      font-size:40px ;
+      /* font-size:3em ; */
+      
     }
-    .examp {
+    /* .examp {
         font-size:30px ;
-    }
-    .button-1 {
-        margin-top: 1rem;
-        margin-left: 1rem;
-        margin-bottom: 2rem;
-    }
+    } */
+   
   
   }
   
    /* Large devices (desktops, 992px and up) */
   @media only screen and (min-width: 992px) {
     .carousel-caption h1 {
-      font-size: 60px;
+      /* font-size: 4em; */
     }
-    .examp {
+    /* .examp {
         font-size: 40px;
-    }
-    .button-1 {
-        margin-top: 1rem;
-        margin-left: 2rem;
-        margin-bottom: 2rem;
-    }
+    } */
+   
 
   
   }
@@ -116,15 +125,12 @@ color: white !important;
    /* X-Large devices (large desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) {
     .carousel-caption h1 {
-      font: size 75px; ;
+      /* font: size 7em;  */
     }
-    .examp {
+    /* .examp {
         font-size: 50px;
-    }
-    .button-1 {
-        margin-top: 4rem;
-        margin-left: 4rem;
-    }
+    } */
+    
 
   
   }
@@ -132,7 +138,7 @@ color: white !important;
    /* XX-Large devices (larger desktops, 1400px and up) */
   @media only screen and (min-width: 1400px) {
     .carousel-caption h1 {
-        font-size: 90px;
+        /* font-size: 9em; */
       
     }
   }
