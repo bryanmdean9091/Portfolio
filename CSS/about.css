@@ -3,6 +3,9 @@
     background-color: black;
     border-bottom: .25rem solid white;
 }
+.contain-fluid {
+    width: 100vw ;
+}
 .navbar-toggler{
 background-color: white !important; 
 color: white !important;
@@ -30,7 +33,7 @@ color: white !important;
     border-bottom: .25rem solid white;
 }
 .card {
-    border: .25rem solid white;
+    border: .25rem solid gold;
 }
 .cardi-b {
     padding: .25em;
