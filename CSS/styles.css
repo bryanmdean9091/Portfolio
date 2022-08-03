@@ -6,6 +6,9 @@
 .contain-fluid {
     width: 100vw;
 }
+.navbar .navbar-nav .nav-link:hover{
+    background-color: midnightblue;
+}
 .navbar-toggler{
 background-color: white !important; 
 color: white !important;
@@ -15,7 +18,7 @@ color: white !important;
 }
 
 .jumbo {
-    background-image: url("./images/pexels-felix-mittermeier-956981\ \(1\).jpg");
+    background-image: url("./images/icegif-1534.gif");
     background-repeat: no-repeat;
     background-size: cover;
 } .et {

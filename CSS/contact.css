@@ -4,7 +4,7 @@
 }
 .navbar {
     background-color: black;
-    border-bottom: .25rem solid white;
+    border-bottom: .25em solid white;
 }
 .navbar-toggler{
 background-color: white !important; 
@@ -13,4 +13,105 @@ color: white !important;
 .collapse {
     color: white;
 }
+/* contact form */
+.contact {
+    height: 35em;
+    background-image: url("./images/5XeB.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+h2 {
+    color: black;
+}
+.prompts, .prompts-2, .prompts-b {
+    color: black;
+    font-weight: 800;
+}
+.footer {
+    border-top: .25rem solid white;
+}
+
+/* breakpoints */
+ /* Small devices (landscape phones, 250px and up) */
+ @media only screen and (min-width: 250px) {
+     .contact {
+        background-size: contain;
+        background-repeat: repeat-y; 
+    }
+    h2 {
+        color: white;
+    }
+    .prompts, .prompts-2 {
+        color: white;
+    }
+  
+  }
+  
+   /* Medium devices (tablets, 750px and up) */
+  @media only screen and (min-width: 750px) {
+    .contact {
+      height: 100vh;
+      background-size: contain;
+      background-repeat: repeat-y;
+      margin-block: 0;
+    }
+    h2 {
+        color: black;
+    }
+    .prompts  {
+        color: black;
+    }
+    .prompts-2 {
+        color: white;
+    }
+    .prompts-b {
+        color: white;
+    }
+  
+  }
+  
+   /* Large devices (desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .contact{
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    h2 {
+        color: black; 
+    }
+    .prompts {
+        color: black;
+    }
+    .prompts-2 {
+        color: white;
+    }
+  
+  }
+  
+   /* X-Large devices (large desktops, 1000px and up) */
+  @media only screen and (min-width: 1200px) {
+    .contact {
+     background-size:cover;
+     background-repeat: no-repeat;
+    }
+    .prompts-2, .prompts-b {
+        color: black;
+    }
+  
+  }
+  
+   /* XX-Large devices (larger desktops, 1400px and up) */
+  @media only screen and (min-width: 1400px) {
+     .contact{
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .prompts-2 {
+        color: white;
+    }
+  }
+
+
 
