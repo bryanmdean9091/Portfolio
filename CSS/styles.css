@@ -31,11 +31,10 @@ color: white !important;
 }
 .sect-1 {
     border-style: double;
-    background-image:url("./images/moonback.png");
+    /* background-image:url("./images/moonback.png");
     background-size: cover;
-    background-repeat: no-repeat;
-    background-color: black;
-    opacity: 10;
+    background-repeat: no-repeat; */
+   
 }
 .container-2 {
     padding: 2em;

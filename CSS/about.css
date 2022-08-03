@@ -1,10 +1,8 @@
   
 .navbar {
-    background-color: black;
+    background-color: cornflowerblue;
     border-bottom: .25rem solid white;
-}
-.navbar .navbar-nav .nav-link:hover{
-    background-color: gold;
+   
 }
 .contain-fluid {
     width: 100vw ;
@@ -27,9 +25,9 @@ color: white !important;
 }
 /* card section */
 .list {
-    font-family: 'Homer Simpson Revised', sans-serif;
+    font-family: 'Gravitas One', cursive;
     color: gold;
-    -webkit-text-stroke:3px black;
+    -webkit-text-stroke:4px black;
                                                 
 }
 .img-fluid {
@@ -60,5 +58,15 @@ h2 {
 }
 .casa {
     border: .25em solid gold;
+}
+/* footer */
+footer {
+    background-color: cornflowerblue;
+}
+.fa-brands {
+    color: white;
+}
+h4 {
+    color: white;
 }
 
