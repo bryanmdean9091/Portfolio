@@ -21,6 +21,7 @@ color: white !important;
     background-image: url("./images/icegif-1534.gif");
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: rgba(0, 0,0 ,0.1 )
 } .et {
     width: 40vw;
 }
@@ -28,10 +29,24 @@ color: white !important;
     border: .25em solid white;
     height: 34em;
 }
+.sect-1 {
+    border-style: double;
+    background-image:url("./images/moonnew.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    opacity: 10;
+}
+.container-2 {
+    padding: 2em;
+}
 h1 {
     font-family: 'Gravitas One', cursive;
+    color: black;
+    -webkit-text-stroke:1px white;
+    padding-left: 2em;
+    padding-right: 2em;
 }
-
 .carp {
     display: inset-inline;
     font-family: 'Acme', sans-serif;
@@ -41,11 +56,15 @@ h1 {
 } 
 .opening {
     border-top: .25rem solid white;
-    /* width: 100vw; */
 }
 .myself {
-    font-family: 'Gravitas One', cursive;
+    font-size: inherit;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: 1.25em;
     color: white;
+    -webkit-text-stroke:.5px black;
+
 }
 /* start of section */
 .section-2 {
@@ -60,10 +79,12 @@ h1 {
 }
 .button-1 {
     border: .25rem solid white;
+    background-color: darkblue;
 }
 /* footer */
 .footer {
     border-top: .25rem solid white;
+    background-color: black;
 }
 
 
@@ -82,8 +103,11 @@ h1 {
 
 
 /* breakpoints */
- /* Small devices (landscape phones, 375px and up) */
-  @media only screen and (min-width: 375px) {
+ /* Small devices (landscape phones, 276px and up) */
+  @media only screen and (min-width: 276px) and (max-width:665px) {
+    .et {
+        width: 60vw;
+    }
    
     
    
