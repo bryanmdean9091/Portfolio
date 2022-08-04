@@ -16,7 +16,7 @@ color: white !important;
 .collapse {
     color: white;
 }
-
+/* jumpotron */
 .jumbo {
     background-image: url("./images/icegif-1534.gif");
     background-repeat: no-repeat;
@@ -29,12 +29,16 @@ color: white !important;
     border: .25em solid white;
     height: 34em;
 }
+/* section */
 .sect-1 {
     border-style: double;
     background-image:url("./images/moonback.png");
     background-size: cover;
     background-repeat: no-repeat;
-   
+}
+.moon {
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .container-2 {
     padding: 2em;
@@ -104,8 +108,8 @@ h1 {
 /* breakpoints */
  /* Small devices (landscape phones, 276px and up) */
   @media only screen and (min-width: 276px) and (max-width:665px) {
-    .et {
-        width: 60vw;
+   {
+        
     }
    
     

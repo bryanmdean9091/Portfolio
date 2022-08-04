@@ -55,8 +55,8 @@ h2 {
 .closing-info {
     font-weight: 700;
     font-family: 'Gravitas One',;
-    color: gold;
-    -webkit-text-stroke: 1px black;
+    color: black;
+    -webkit-text-stroke: 1px gold;
 }
 .casa {
     border: .25em solid gold;
@@ -66,9 +66,9 @@ footer {
     background-color: cornflowerblue;
 }
 .fa-brands {
-    color: white;
+    color: gold;
 }
 h4 {
-    color: white;
+    color: gold;
 }
 
