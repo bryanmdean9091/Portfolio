@@ -1,7 +1,6 @@
 
 .navbar {
     background-color: black;
-    border-bottom: .25em solid white;
 }
 .navbar-toggler{
 background-color: white !important; 
@@ -14,31 +13,46 @@ color: white !important;
 .contact {
     background-image: url("./images/et-et-the-extra-terrestrial.gif");
     background-repeat: no-repeat;
-    background-size: cover;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-left: 6em solid black;
+    border-right: 6em solid black;
 }
 .form-box {
     max-width: 500px;
     margin: auto;
     padding: 50px;
-    background: rgba(0, 0, 0, .9)
-    border: .5em solid black;
+    /* background: rgba(0, 0, 0, .1); */
   }
 
   
-  h1, h2, p {
+  h1, h2 {
     text-align: center;
     color: gold;
     -webkit-text-stroke: 1px black;
   }
   h1 {
-    font-size: 5em;
+    font-size: 4em;
   }
-  
+  p {
+    color: gold;
+    text-align: center;
+    -webkit-text-stroke: 1px black;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .phone {
+    font-size: 25px;
+    font-weight: bolder;
+  }
   input, textarea {
     width: 100%;
   }
 .footer {
-    border-top: .25rem solid white;
     background-color: black;
 }
 

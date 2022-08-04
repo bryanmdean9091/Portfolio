@@ -21,25 +21,26 @@ color: white !important;
     background-image: url("./images/icegif-1534.gif");
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(0, 0,0 ,0.1 )
-} .et {
-    width: 40vw;
-}
+    background-color: rgba(0, 0, 0, 0.1 )
+} 
 .et {
+    width: 40vw;
     border: .25em solid white;
-    height: 34em;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.1 )
 }
 /* section */
 .sect-1 {
-    border-style: double;
-    background-image:url("./images/moonback.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  border-style: double;
+  background-image: url(./images/moonback.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: black;
 }
-.moon {
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+  
 .container-2 {
     padding: 2em;
 }
