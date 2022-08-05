@@ -1,17 +1,14 @@
-* {
-    position: relative;
-} 
+
 .navbar {
     background-color: cornflowerblue;
     border-bottom: .25rem solid white;
-   
 }
 .contain-fluid {
     width: 100vw ;
 }
 .navbar-toggler{
-background-color: white !important; 
-color: white !important;
+background-color: gold !important; 
+color: gold!important;
 }
 .collapse {
     color: white;
