@@ -19,8 +19,8 @@ color: white !important;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    border-left: 6em solid black;
-    border-right: 6em solid black;
+    border-left: 5em solid black;
+    border-right: 5em solid black;
 }
 .form-box {
     max-width: 500px;
@@ -38,6 +38,7 @@ color: white !important;
     -webkit-text-stroke: 1px black;
   }
   h1 {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 4em;
   }
   p {
